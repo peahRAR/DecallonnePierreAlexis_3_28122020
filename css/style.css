@@ -7,12 +7,30 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* HEADER */
+
 header{
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1;
+}
+
+
+/* SERVICES */
+
+#presentation-text{
+    font-size: 2.3rem;
+    color: #575757!important;
+    margin-bottom: 4rem;
+}
+
+.citation{
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 0.1rem;
 }
 
 a,
