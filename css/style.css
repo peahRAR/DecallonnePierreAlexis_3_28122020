@@ -33,6 +33,14 @@ header{
     margin-bottom: 0.1rem;
 }
 
+/* NOS ACTIONS */
+
+.linkContact{
+    color: white!important;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
