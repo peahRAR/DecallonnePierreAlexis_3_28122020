@@ -74,6 +74,13 @@ a:hover {
 
 /* PAGE FORMULAIRE */
 
+.page-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
 .heroForm{
     margin-top: 92px;
 }
@@ -83,6 +90,12 @@ textarea.form-control {
     resize: none;
 }
 
+/* FOOTER */
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
 
 .bloc {
     width: 100%;
