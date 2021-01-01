@@ -43,6 +43,11 @@ blockquote{
     color: white!important;
     font-size: 1.3rem;
     margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.linkContact:hover{
+    color: #cccccc!important;
 }
 
 .fontCorps{
@@ -73,6 +78,12 @@ a:hover {
 
 .navbar-nav>li>a:hover{
     color: #F3976C!important;
+}
+
+
+.heroBottomTxt{
+    margin: 0;
+    font-size: 3rem;
 }
 
 
