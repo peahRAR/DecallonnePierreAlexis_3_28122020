@@ -8,15 +8,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="../favicon.jpg">
 
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="../css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="../css/et-line.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 
 
 	<script src="../js/jquery-2.1.0.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<script src="../js/blocs.min.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/blocs.js"></script>
 	<script src="../js/jqBootstrapValidation.js"></script>
 	<script src="../js/formHandler.js"></script>
 
@@ -35,7 +35,7 @@
 
 		<!-- HEADER -->
 		<header>
-			<div class="bloc bgc-white l-bloc " id="bloc-0">
+			<div class="bloc bgc-white l-bloc" id="bloc-0">
 				<div class="container bloc-sm">
 					<nav class="navbar row">
 						<div class="navbar-header">
@@ -65,8 +65,8 @@
 		</header>
 		<!-- HEADER END -->
 
-		<!-- bloc-6 -->
-		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+		<!-- HERO -->
+		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper heroForm" id="bloc-6">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
@@ -81,9 +81,9 @@
 				</div>
 			</div>
 		</div>
-		<!-- bloc-6 END -->
+		<!-- HERO END -->
 
-		<!-- bloc-7 -->
+		<!-- FORM + MAP -->
 		<div class="bloc bgc-white l-bloc" id="bloc-7">
 			<div class="container bloc-lg">
 				<div class="row">
@@ -120,25 +120,36 @@
 							</button>
 						</form>
 					</div>
+
+					<!-- MAP -->
 					<div class="col-sm-6">
 						<p>
 							contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
 							au vendredi<br>
 						</p>
+
+						<div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+							<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+							var setting = {"height":392,"width":967,"zoom":17,"queryString":"2 Place Sathonay, 69001 Lyon, France","place_id":"ChIJ6WQ2DwLr9EcRHyySUhfX4xM","satellite":true,"centerCoord":[45.769458016312655,4.830166500000015],"cid":"0x13e3d71752922c1f","lang":"fr","cityUrl":"/france/lyon","cityAnchorText":"Carte de Lyon, Rhône-Alpes, France","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"335938"};
+							var d = document;
+							var s = d.createElement('script');
+							s.src = 'https://1map.com/js/script-for-user.js?embed_id=335938';
+							s.async = true;
+							s.onload = function (e) {
+							  window.OneMap.initMap(setting)
+							};
+							var to = d.getElementsByTagName('script')[0];
+							to.parentNode.insertBefore(s, to);
+						  })();</script><a href="https://1map.com/fr/map-embed">1 Map</a></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- bloc-7 END -->
-
-		<!-- ScrollToTop Button -->
-		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
-				class="fa fa-chevron-up"></span></a>
-		<!-- ScrollToTop Button END-->
+		<!-- FORM + MAP END -->
 
 
-		<!-- Footer - bloc-8 -->
-		<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<!-- Footer -->
+		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
@@ -171,8 +182,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- Footer - bloc-8 END -->
+		</footer>
+		<!-- Footer END -->
 
 	</div>
 	<!-- Principal conteneur END -->
