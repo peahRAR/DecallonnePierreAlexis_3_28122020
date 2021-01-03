@@ -83,6 +83,11 @@ button {
     font-size: 3rem;
 }
 
+.baselineFooter{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
 
 
 
@@ -740,6 +745,11 @@ p {
     margin: auto auto 2rem auto;
     display: flex;
     justify-content: space-around;
+}
+
+.social:hover {
+   text-decoration: none;
+   color: #919191!important;
 }
 
 h2 {
