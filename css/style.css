@@ -109,6 +109,16 @@ textarea.form-control {
     resize: none;
 }
 
+.adresseInfos{
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0,8rem!important;
+}
+
+.red{
+    color: red;
+}
+
 /* FOOTER */
 
 footer{

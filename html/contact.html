@@ -11,13 +11,14 @@
 	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 
-	<meta name="description" content="Agence de Web Design à Lyon qui aide les entreprises à devenir attractives et visibles sur internet">
+	<meta name="description"
+		content="Agence de Web Design à Lyon qui aide les entreprises à devenir attractives et visibles sur internet">
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@lachouetteagence" />
-    <meta name="twitter:title" content="la chouette agence" />
-    <meta name="twitter:description"
-    content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur internet." />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@lachouetteagence" />
+	<meta name="twitter:title" content="la chouette agence" />
+	<meta name="twitter:description"
+		content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur internet." />
 
 	<title>La chouette agence | Contact</title>
 
@@ -39,7 +40,8 @@
 					<nav class="navbar row">
 						<div class="navbar-header">
 							<a class="navbar-brand" href="../index.html"><img src="../img/la-chouette-agence.webp"
-									alt="Logo de la chouette agence, agence de design web basé à Lyon" height="40" /></a>
+									alt="Logo de la chouette agence, agence de design web basé à Lyon"
+									height="40" /></a>
 							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
 								data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span>
@@ -65,7 +67,8 @@
 		<!-- HEADER END -->
 
 		<!-- HERO -->
-		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper heroForm" id="bloc-6">
+		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper heroForm"
+			id="bloc-6">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
@@ -91,28 +94,29 @@
 							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
 								<label>
-									Nom
+									Nom <span class="red">*</span>
 								</label>
-								<input id="name" class="form-control" required />
+								<input id="name" class="form-control" required placeholder="Jean Dupont"/>
 							</div>
 							<div class="form-group">
 								<label>
-									Adresse email
+									Adresse email <span class="red">*</span>
 								</label>
-								<input id="email" class="form-control" type="email" required />
+								<input id="email" class="form-control" type="email" required placeholder="jeandupont@gmail.com" />
 							</div>
 							<div class="form-group">
 								<label>
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" type="email" required id="input_504" />
+								<input class="form-control" type="email" id="input_504" />
 							</div>
 							<div class="form-group">
 								<label>
-									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50"
+									Brief de votre projet (Ajoutez autant de détails que nécessaire) <span class="red">*</span>
+								</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Décrivez votre projet "
 									required></textarea>
 							</div>
+							<p><span class="red">*</span> Champs obligatoire</p>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 								type="submit">
 								Envoyer
@@ -122,24 +126,27 @@
 
 					<!-- MAP -->
 					<div class="col-sm-6">
-						<p>
-							contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
-							au vendredi<br>
-						</p>
+						<p class="adresseInfos"> <a href="mailto:contact@chouetteagence.com"> contact@lachouetteagence.com </a></p>
+						<p class="adresseInfos"> 2 place Sathonay 69001 Lyon</p>
+						<p class="adresseInfos"> Ouvert de 9h à 18h, du lundi
+							au vendredi</p>
+
 
 						<div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
-							<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
-							var setting = {"height":392,"width":967,"zoom":17,"queryString":"2 Place Sathonay, 69001 Lyon, France","place_id":"ChIJ6WQ2DwLr9EcRHyySUhfX4xM","satellite":true,"centerCoord":[45.769458016312655,4.830166500000015],"cid":"0x13e3d71752922c1f","lang":"fr","cityUrl":"/france/lyon","cityAnchorText":"Carte de Lyon, Rhône-Alpes, France","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"335938"};
-							var d = document;
-							var s = d.createElement('script');
-							s.src = 'https://1map.com/js/script-for-user.js?embed_id=335938';
-							s.async = true;
-							s.onload = function (e) {
-							  window.OneMap.initMap(setting)
-							};
-							var to = d.getElementsByTagName('script')[0];
-							to.parentNode.insertBefore(s, to);
-						  })();</script><a href="https://1map.com/fr/map-embed">1 Map</a></div>
+							<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+							<script>(function () {
+									var setting = { "height": 392, "width": 967, "zoom": 17, "queryString": "2 Place Sathonay, 69001 Lyon, France", "place_id": "ChIJ6WQ2DwLr9EcRHyySUhfX4xM", "satellite": true, "centerCoord": [45.769458016312655, 4.830166500000015], "cid": "0x13e3d71752922c1f", "lang": "fr", "cityUrl": "/france/lyon", "cityAnchorText": "Carte de Lyon, Rhône-Alpes, France", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "335938" };
+									var d = document;
+									var s = d.createElement('script');
+									s.src = 'https://1map.com/js/script-for-user.js?embed_id=335938';
+									s.async = true;
+									s.onload = function (e) {
+										window.OneMap.initMap(setting)
+									};
+									var to = d.getElementsByTagName('script')[0];
+									to.parentNode.insertBefore(s, to);
+								})();</script><a href="https://1map.com/fr/map-embed">1 Map</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -158,22 +165,28 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" aria-label="Notre Twitter" href="wwww.twitter/chouetteagence"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" aria-label="Notre Twitter"
+										href="wwww.twitter/chouetteagence"><span
+											class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" aria-label="Notre Facebook" href="wwww.facebook/chouetteagence"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social" aria-label="Notre Facebook"
+										href="wwww.facebook/chouetteagence"><span
+											class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" aria-label="Notre Dribble" href="www.dribble/chouetteagence"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" aria-label="Notre Dribble" href="www.dribble/chouetteagence"><span
+											class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" aria-label="Notre Instagram"  href="www.instagram/chouetteagence"><span
+									<a class="social" aria-label="Notre Instagram"
+										href="www.instagram/chouetteagence"><span
 											class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
