@@ -131,6 +131,9 @@ footer{
     font-size: 1.5rem;
 }
 
+.baselineFooter{
+    color: #000000!important;
+}
 
 
 
@@ -755,6 +758,7 @@ p {
     margin: auto auto 2rem auto;
     display: flex;
     justify-content: space-around;
+    color: #000000!important;
 }
 
 .social:hover {
