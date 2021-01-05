@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.text-lower{
+    font-size: 1.5rem!important;
+}
+
 /* HEADER */
 
 header{
@@ -759,6 +763,7 @@ p {
     display: flex;
     justify-content: space-around;
     color: #000000!important;
+    margin-bottom: 0;
 }
 
 .social:hover {
@@ -1045,7 +1050,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 40px 0 0 0;
     }
     .bloc-sm,
     .bloc-md {
