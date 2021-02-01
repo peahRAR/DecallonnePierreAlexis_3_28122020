@@ -12,7 +12,8 @@ body {
 }
 
 .orange{
-    color: #f3976c!important;
+    color: #ffffff!important;
+    text-shadow: #f3976c 4px 0 8px;
 }
 
 .text-lower {
