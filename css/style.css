@@ -10,6 +10,11 @@ body {
     display: flex;
     align-items: center;
 }
+
+.orange{
+    color: #f3976c!important;
+}
+
 .text-lower {
     font-size: 1.5rem !important;
 }
@@ -60,6 +65,12 @@ button {
 }
 .navbar-nav > li > a:hover {
     color: #f3976c !important;
+}
+
+.absolute{
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .heroBottomTxt {
@@ -727,6 +738,7 @@ h4 {
 .bg-banniere {
     background-image: url(../img/la-chouette-agence-banniere.webp);
     background-size: cover;
+    height: 45vh;
 }
 .bg-presentation {
     background-image: url(../img/image-de-presentation.webp);
