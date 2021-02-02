@@ -886,6 +886,11 @@ h4 {
     .bloc-xxl {
         padding: 40px 0 0 0;
     }
+
+    .bloc-hero{
+        padding: 125px 0 0 0;
+    }
+
     .bloc-md,
     .bloc-sm {
         padding-left: 0;
